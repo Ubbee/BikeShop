@@ -1,0 +1,124 @@
+{
+    "bicicletas": [
+        {
+            "id": 1,
+            "modelo": "Turbo Levo Expert",
+            "marca": "Specialized",
+            "precio": 1000,
+            "terreno": "road",
+            "imagen": "https://www.runnerbike.com.ar/backoffice/images/epic%20expert%20carbon.jpg"
+        },
+        {
+            "id": 2,
+            "modelo": "Turbo Levo SL",
+            "marca": "Specialized",
+            "precio": 1000,
+            "terreno": "mountain",
+            "imagen": "https://www.runnerbike.com.ar/backoffice/images/95422-53_DIVERGE-E5-COMP-TARBLK-SMK-CHRM_HERO.jpg"
+        },
+        {
+            "id": 3,
+            "modelo": "Turbo Levo Alloy",
+            "marca": "Specialized",
+            "precio": 1000,
+            "terreno": "trekk",
+            "imagen": "https://www.runnerbike.com.ar/backoffice/images/44-5266.jpg"
+        },
+        {
+            "id": 4,
+            "modelo": "Tarmac SL6 Sport",
+            "marca": "Specialized",
+            "precio": 1000,
+            "terreno": "trekk",
+            "imagen": "https://www.runnerbike.com.ar/backoffice/images/95422-31_DIVERGE-EXPERT-CARBON-TLTNT-CARB-LMSTN_HERO.jpeg"
+        },
+        {
+            "id": 5,
+            "modelo": "SuperSix EVO",
+            "marca": "Cannondale",
+            "precio": 1000,
+            "terreno": "mountain",
+            "imagen": "https://www.muvin.com.ar/images/products/products_sku/20201026-051338_1.jpg"
+        },
+        {
+            "id": 6,
+            "modelo": "SystemSix",
+            "marca": "Cannondale",
+            "precio": 1000,
+            "terreno": "road",
+            "imagen": "https://embed.widencdn.net/img/dorelrl/zico7b681a/1100px@1x/C21_C11131U_SystemSix_HM_DA_Di2_MRC_PD.webp?color=fafafa&q=99"
+        },
+        {
+            "id": 7,
+            "modelo": "Marlin 4",
+            "marca": "Trek",
+            "precio": 1000,
+            "terreno": "trekk",
+            "imagen": "https://media.trekbikes.com/image/upload/f_auto,fl_progressive:semi,q_auto,w_1440,h_1080,c_pad/FuelEXe99XTR_23_36371_B_Primary"
+        },
+        {
+            "id": 8,
+            "modelo": "Marlin 5",
+            "marca": "Trek",
+            "precio": 1000,
+            "terreno": "mountain",
+            "imagen": "https://media.trekbikes.com/image/upload/f_auto,fl_progressive:semi,q_auto,w_1440,h_1080,c_pad/MadoneSLR9_23_37419_B_Primary"
+        },
+        {
+            "id": 9,
+            "modelo": "X-force MTB",
+            "marca": "venzo",
+            "precio": 1000,
+            "terreno": "trekk",
+            "imagen": "https://www.tiendabike.com.ar/Temp/App_WebSite/App_PictureFiles/Items/3500Thorn22_800.jpg"
+        },
+        {
+            "id": 10,
+            "modelo": "Exceed Pro MTB",
+            "marca": "venzo",
+            "precio": 1000,
+            "terreno": "mountain",
+            "imagen": "https://www.tiendabike.com.ar/Temp/App_WebSite/App_PictureFiles/Items/4100Shadow_800.jpg"
+        },
+        {
+            "id": 11,
+            "modelo": "Atix EX MTB",
+            "marca": "venzo",
+            "precio": 1000,
+            "terreno": "mountain",
+            "imagen": "https://www.tiendabike.com.ar/Temp/App_WebSite/App_PictureFiles/Items/4101SkylineEvo20_800.jpg"
+        },
+        {
+            "id": 12,
+            "modelo": "BIG.NINE XT",
+            "marca": "Merida",
+            "precio": 1000,
+            "terreno": "road",
+            "imagen": "https://d2lljesbicak00.cloudfront.net/merida-v2/crud-zoom-img//master/bikes/2022_Mockups_Assemblings/BIG_NINE_XT_whtblk_MOC22_1.tif?p3"
+        },
+        {
+            "id": 13,
+            "modelo": "BIG.NINE 7000",
+            "marca": "Merida",
+            "precio": 1000,
+            "terreno": "mountain",
+            "imagen": "https://d2lljesbicak00.cloudfront.net/merida-v2/crud-zoom-img//master/bikes/2022_Mockups_Assemblings/BIG_NINE_7000_whtblk_MOC22_1.tif?p3"
+        },
+        {
+            "id": 14,
+            "modelo": "Emonda SL 6",
+            "marca": "Trek",
+            "precio": 1000,
+            "terreno": "road",
+            "imagen": "https://media.trekbikes.com/image/upload/f_auto,fl_progressive:semi,q_auto,w_1440,h_1080,c_pad/DomanePlusSLR9_23_36742_B_Primary"
+        },
+        {
+            "id": 15,
+            "modelo": "BIG.NINE TR 8000",
+            "marca": "Merida",
+            "precio": 1000,
+            "terreno": "road",
+            "imagen": "https://d2lljesbicak00.cloudfront.net/merida-v2/crud-zoom-img//master/bikes/2024/BIG_NINE_TR_8000_grnslv_MY24.tif?p3"
+        }
+    ]
+}

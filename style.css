@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 40px 30px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    margin-top: 1px;
+    color: rgb(184, 184, 184);
+    transform: 0.2s;
+}
+
+.garage {
+    font-size: 2.5rem;
+}
+
+.imagenPrin {
+    height: 450px;
+    background-image: url("https://http2.mlstatic.com/D_NQ_NP_722984-MLA69715825001_052023-OO.webp");
+    background-size: cover;
+}
+
+.card {
+    text-align: center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    color: BLACK;
+    border: 0px solid;
+}
+
+.card h5 {
+    font-family: monospace;
+}
+
+.card h6 {
+    color: rgb(95, 95, 95);
+}
+
+.card p {
+    color: #EB4F19;
+}
+
+
+
+.card:hover {
+    border: 3px solid #5DADE2;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card div button {
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 0px solid;
+    margin-top: 10px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+
+#cards-container {
+    margin: 20px 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.card button:hover {
+    transition: 0.3s;
+    color: white;
+    background-color: #F9B50B;
+    margin-top: 12px;
+}
+
+.productsContainer {
+    display: flex;
+
+}
+
+.listaBusqueda {
+    margin-top: 70px;
+}
+
+.listaBusqueda h4 {
+    text-align: start;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+
+.listaBusqueda ul li {
+    padding: 22px 0px 0px 20px;
+    list-style: none;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+    width: 300px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.listaBusqueda button {
+    border-radius: 5px;
+    border: 0px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.listaBusqueda ul button:hover {
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.listaBusqueda p {
+    font-size: 0.9rem;
+    margin-top: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.listaBusqueda p button:hover {
+    margin-top: 1px;
+    transition: 0.1s;
+    color: #AED6F1;
+}
+
+.swal-button-no-border {
+    border: 0px;
+    background-color: rgb(0, 197, 0);
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+.swal-font-monospace {
+    font-family: monospace;
+}
+
+.containerOne {
+    background-color: #F2F2F2;
+    padding: 200px 0px;
+}
+
+#carritoCompras {
+    text-align: center;
+    margin: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#carritoCompras h2 {
+    font-weight: bold;
+    font-family: monospace;
+    color: #FFFFFF;
+}
+
+#listaCarrito {
+    margin-top: 25px;
+}
+
+#carritoCompras p {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#carritoCompras button {
+    border-radius: 8px;
+    padding: 10px;
+    border: 0px solid grey;
+}
+
+#listaCarrito li {
+    list-style: none;
+    width: 300px;
+    border: 1px solid #FFFFFF;
+    margin: 0px auto;
+    color: #FFFFFF;
+    font-family: monospace;
+    border-radius: 5px;
+}
+
+#carritoCompras {
+    padding: 20px;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #2471A3;
+}
+
+#carritoCompras:hover {
+    transition: 0.7s;
+    padding: 50px 20px;
+}
+
+#carritoCompras button {
+    background-color: #839192;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 13px;
+    font-family: monospace;
+}
+
+
+
+.productsContainer {
+    margin-top: 50px;
+}
+
+
+
+
+
+/*  ICONO DE CARRO ABAJO A LA DERECHA */
+.icons{
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+    display: flex;
+    column-gap: 25px;
+    border: 0px ;
+}
+
+.icon--whatsapp:hover{
+    background-color: #2471A3;
+    outline-color: #2471A3;
+}
+
+.icons .icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: .25s;
+    background-color: grey;
+    
+}
+.icon img{
+    width: 42px;
+}
+
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+
+.icons .icon:hover{
+    outline-offset: 4px;
+    animation: shake .25s;
+    outline: 2px solid #2471A3;
+    background-color: #2471A3;
+}
+
+
+
+/* FOOTER */
+footer {
+    padding: 40px 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer h3 {
+    align-self: end;
+    padding-bottom: 20px;
+}
