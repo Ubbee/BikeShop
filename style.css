@@ -40,7 +40,7 @@ nav ul li a:hover {
 }
 
 .imagenPrin {
-    height: 450px;
+    height: 600px;
     background-image: url("https://http2.mlstatic.com/D_NQ_NP_722984-MLA69715825001_052023-OO.webp");
     background-size: cover;
 }
@@ -150,8 +150,8 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.listaBusqueda p button:hover {
-    margin-top: 1px;
+.productsContainer .listaBusqueda p button:hover {
+    margin-top: 22px;
     transition: 0.1s;
     color: #AED6F1;
 }
@@ -168,6 +168,9 @@ nav ul li a:hover {
     font-family: monospace;
 }
 
+
+
+/*    */
 .containerOne {
     background-color: #F2F2F2;
     padding: 200px 0px;
@@ -178,8 +181,6 @@ nav ul li a:hover {
     margin: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 
 #carritoCompras h2 {
     font-weight: bold;
@@ -201,12 +202,6 @@ nav ul li a:hover {
     font-size: 1.2rem;
 }
 
-#carritoCompras button {
-    border-radius: 8px;
-    padding: 10px;
-    border: 0px solid grey;
-}
-
 #listaCarrito li {
     list-style: none;
     width: 300px;
@@ -222,23 +217,13 @@ nav ul li a:hover {
     width: 450px;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: #2471A3;
+    background-color: black;
 }
 
 #carritoCompras:hover {
     transition: 0.7s;
     padding: 50px 20px;
 }
-
-#carritoCompras button {
-    background-color: #839192;
-    color: white;
-    padding: 10px 30px;
-    border-radius: 13px;
-    font-family: monospace;
-}
-
-
 
 .productsContainer {
     margin-top: 50px;
@@ -249,21 +234,21 @@ nav ul li a:hover {
 
 
 /*  ICONO DE CARRO ABAJO A LA DERECHA */
-.icons{
+.icons {
     position: fixed;
     bottom: 80px;
     right: 100px;
     display: flex;
     column-gap: 25px;
-    border: 0px ;
+    border: 0px;
 }
 
-.icon--whatsapp:hover{
+.icon--whatsapp:hover {
     background-color: #2471A3;
     outline-color: #2471A3;
 }
 
-.icons .icon{
+.icons .icon {
     width: 60px;
     height: 60px;
     display: inline-flex;
@@ -276,20 +261,32 @@ nav ul li a:hover {
     transition-property: outline-offset, outline-color, background-color;
     transition-duration: .25s;
     background-color: grey;
-    
+
 }
-.icon img{
+
+.icon img {
     width: 42px;
 }
 
-@keyframes shake{
-    10%{transform: rotate(15deg);}
-    20%{transform: rotate(-15deg);}
-    30%{transform: rotate(15deg);}
-    40%{transform: rotate(-15deg);}
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
 }
 
-.icons .icon:hover{
+.icons .icon:hover {
     outline-offset: 4px;
     animation: shake .25s;
     outline: 2px solid #2471A3;
@@ -309,4 +306,135 @@ footer {
 footer h3 {
     align-self: end;
     padding-bottom: 20px;
+}
+
+/* ------------------------------------------- */
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 1em 1em -0.9em var(--hover);
+    transform: translateY(-0.25em);
+    transition: 0.3s;
+}
+
+.raise {
+    --color: #FFFFFF;
+    --hover: #FFFFFF;
+}
+
+nav ul li button {
+    background: none;
+    border: 3px solid;
+    font-family: monospace;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: white;
+}
+
+/*------------- BOTONES-DEL-CARRITO--------------------*/
+
+button {
+    margin: 20px;
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+}
+
+.btn-3 {
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    font-family: monospace;
+}
+
+.btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-3:before,
+.btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.btn-3:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-3:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn-3:hover {
+    background: transparent;
+    box-shadow: none;
+    box-shadow: 0 0 20px 5px grey;
+    transition: 1s;   
+}
+
+.btn-3:hover:before {
+    height: 100%;
+    
+}
+
+.btn-3:hover:after {
+    width: 100%;
+}
+
+.btn-3 span:hover {
+    color: white;
+}
+
+.btn-3 span:before,
+.btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.btn-3 span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.btn-3 span:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn-3 span:hover:before {
+    height: 100%;
+}
+
+.btn-3 span:hover:after {
+    width: 100%;
 }

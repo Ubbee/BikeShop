@@ -33,6 +33,23 @@ document.addEventListener("DOMContentLoaded", async function () {
         // al metodo agregarAlCarrito
         document.querySelectorAll('.comprar').forEach(button => {
             button.addEventListener('click', (event) => {
+
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Producto agregado al carrito"
+                });
+
                 const id = parseInt(event.currentTarget.dataset.id);
                 agregarAlCarrito(id);
             });
@@ -97,6 +114,23 @@ async function cargarBicicletas(categoria) {
         // al metodo agregarAlCarrito
         document.querySelectorAll('.comprar').forEach(button => {
             button.addEventListener('click', (event) => {
+
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Producto agregado al carrito"
+                });
+
                 const id = parseInt(event.currentTarget.dataset.id);
                 agregarAlCarrito(id);
             });
@@ -146,6 +180,23 @@ borrar.addEventListener('click', async () => {
 
         document.querySelectorAll('.comprar').forEach(button => {
             button.addEventListener('click', (event) => {
+
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Producto agregado al carrito"
+                });
+
                 const id = parseInt(event.currentTarget.dataset.id);
                 agregarAlCarrito(id);
             });
@@ -287,4 +338,7 @@ document.getElementById('realizarCompra').addEventListener('click', () => {
         actualizarLocalStorage();
     }
 })
+
+// -----------------------------------------------------------------------
+
 
