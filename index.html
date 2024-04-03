@@ -18,35 +18,61 @@
 <body>
 
     <nav>
-        <ul>
+        <a href=""><img src="assets/icons8-bycicle-60.png" alt=""></a>
+        <ul class="home">
             <li><button class="raise">N o s o t r o s</button></li>
-            <li><button class="raise">GARAGE</button></li>
+            <li><button class="raise">CITY-BIKE</button></li>
             <li><button class="raise">C o n t a c t o</button></li>
         </ul>
+
+        
+        
+        <ul class="dropdown">
+            <li>
+                <button class="dropBTN"><img src="assets/icono-hamburguesa.png" alt=""></button>
+                <ul class="contenido">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">NOSOTROS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </li>
+        </ul>
+
+
+
+
     </nav>
 
     <div class="imagenPrin"></div>
 
-    <section class="Filtro">
 
-        <section class="productsContainer">
-            <div class="listaBusqueda">
-                <h4>FILTROS</h4>
-                <ul>
-                    <li><button id="mountain">MONTAÑA</button></li>
-                    <li><button id="trekk">TREKKING</button></li>
-                    <li><button id="road">RUTA</button></li>
-                </ul>
-                <p><button id="borrar">BORRAR FILTROS</button></p>
+    <section class="productsContainer">
+        <div class="listaBusqueda" id="filtro">
+            <h4>FILTROS</h4>
+            <ul>
+                <li><button id="mountain">MONTAÑA</button></li>
+                <li><button id="trekk">TREKKING</button></li>
+                <li><button id="road">RUTA</button></li>
+            </ul>
+            <p><button id="borrar">BORRAR FILTROS</button></p>
+        </div>
+        <section>
+            <div class="row row-cols-1 row-cols-md-3 g-4 cards" id="cards-container">
+
             </div>
-            <section>
-                <div class="row row-cols-1 row-cols-md-3 g-4 cards" id="cards-container">
-
-                </div>
-            </section>
         </section>
     </section>
+
+
+
+
     <section class="containerOne">
+
+        <div class="ImagenSec">
+            <p>Comprá lo que quieras y recibilo gratis en tu casa</p>
+            <a href="#filtro">Ver productos</a>
+        </div>
+
         <section id="carritoCompras">
             <h2>Carrito de Compras</h2>
             <ul id="listaCarrito">
@@ -59,6 +85,8 @@
         </section>
     </section>
 
+    <!-- 1240x1390 -->
+
     <div class="icons">
         <a href="#carritoCompras" class="icon icon--whatsapp">
             <i class="ri-whatsapp-line"><img src="assets/icons8-carrito-de-compras-64.png" alt=""></i>
@@ -67,7 +95,7 @@
 
     <footer>
         <h3>Garage de Bicicletas</h3>
-        <p>© 2023 Garage, todos los derechos reservados.</p>
+        <p>© 2023 CityBike, todos los derechos reservados.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

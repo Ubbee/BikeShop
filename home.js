@@ -264,7 +264,7 @@ const actualizarLocalStorage = (carrito) => {
 document.addEventListener("DOMContentLoaded", () => {
     const carritoGuardado = localStorage.getItem('carrito');
     if (carritoGuardado) {
-        carrito = JSON.parse(carritoGuardado); 
+        carrito = JSON.parse(carritoGuardado);
     }
 
     const totalElemento = document.getElementById('total');
@@ -341,4 +341,13 @@ document.getElementById('realizarCompra').addEventListener('click', () => {
 
 // -----------------------------------------------------------------------
 
+
+$("#header").prepend(
+    '<div id="menu-icon"><span class="first"></span><span class="second"></span><span class="third"></span></div>'
+);
+
+$("#menu-icon").on("click", function () {
+    $("nav").slideToggle();
+    $(this).toggleClass("active");
+});
 
